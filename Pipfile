@@ -9,6 +9,13 @@ verify_ssl = true
 sqlalchemy = "*"
 sphinx = "*"
 bootstrap4 = "*"
+"html.parser" = "*"
+flask = "*"
+python-dotenv = "*"
+psycopg2-binary = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+jinja2 = "*"
 
 [requires]
 python_version = "3.8"

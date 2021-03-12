@@ -1,0 +1,45 @@
+"""Extends base.html"""
+{%  extends 'base.html' %}
+
+
+{% block content %}
+<div class="container-fluid">
+        <nav class="navbar navbar-expand-md fixed-top">
+            <a class="navbar-brand">Rick's Records</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+                    aria-controls="collapsibleNavbar">
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </button>
+            <div class="navbar-collapse collapse" id="collapsibleNavbar" style>
+                <ul class="navbar-nav mr-auto nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Collection</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Updates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Daily Spin</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav ml-auto">
+                    <a href="https://github.com/Rick1310/Ricks_Records" class="nav-link"><i class="fab fa-github"></i></a>
+                </ul>
+                <form class="form-inline my-2 my-sm-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark my-2 my-sm-0" type="submit" id="navSearch">Search</button>
+                </form>
+
+            </div>
+            <span class=""></span>
+        </nav>
+</div>
+{% endblock %}
